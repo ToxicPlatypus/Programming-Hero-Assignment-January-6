@@ -1,0 +1,141 @@
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Roboto", sans-serif;
+}
+
+.stay-focused {
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+  font-size: 50px;
+  padding: 0;
+  margin: 0%;
+}
+
+.mission-2022 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+  font-size: 50px;
+  padding: 0;
+  margin: 0%;
+  color: orange;
+}
+
+#first-border {
+  border-left: 3px solid yellowgreen;
+  padding: 5px;
+}
+
+.first-button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: none;
+  color: white;
+  background-color: orange;
+  text-decoration: none;
+}
+
+.first-banner {
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
+}
+
+.first-banner img {
+  height: 400px;
+  width: 400px;
+}
+
+.orange {
+  color: orange;
+}
+
+.red {
+  color: red;
+}
+
+.white {
+  color: white;
+}
+
+.center {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.second-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mission {
+  margin-top: 20px;
+  width: 400px;
+  padding: 20px;
+  background-color: paleturquoise;
+  border-radius: 20px;
+}
+
+.mission img {
+  width: 80%;
+}
+
+.vission {
+  margin-top: 20px;
+  width: 400px;
+  padding: 20px;
+  background-color: pink;
+  border-radius: 20px;
+}
+
+.vission img {
+  width: 80%;
+}
+
+.goals {
+  margin-top: 20px;
+  width: 400px;
+  padding: 20px;
+  background-color: wheat;
+  border-radius: 20px;
+}
+
+.goals img {
+  width: 60%;
+}
+
+.third-flex {
+  justify-content: center;
+  margin-top: 40px;
+  display: flex;
+}
+
+.third-flex img {
+  width: 50%;
+}
+
+.header {
+  margin: 0%;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.second-button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: none;
+  color: white;
+  background-color: red;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  background-color: black;
+  padding: 40px;
+}
