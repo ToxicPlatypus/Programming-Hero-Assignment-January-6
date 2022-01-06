@@ -1,14 +1,12 @@
 body {
-  margin-left: 20%;
-  margin-right: 20%;
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
 }
 
 .stay-focused {
   font-family: "Roboto Slab", serif;
   font-weight: 900;
   font-size: 50px;
-  padding: 0;
   margin: 0%;
 }
 
@@ -22,17 +20,25 @@ body {
 }
 
 #first-border {
-  border-left: 3px solid yellowgreen;
-  padding: 5px;
+  border-left: 4px solid;
+  line-height: 55px;
+  border-image: linear-gradient(#f6b73c, #4d9f0c) 20;
+}
+
+.top-heading {
+  padding-left: 8px;
 }
 
 .first-button {
-  margin-top: 10px;
+  margin-top: 4px;
+  margin-bottom: 8px;
   padding: 10px;
   border-radius: 10px;
   border: none;
   background: none;
   color: white;
+  font-weight: bolder;
+  font-size: 16px;
   background-color: orange;
   text-decoration: none;
 }
@@ -44,14 +50,14 @@ body {
 }
 
 .writing {
-  width: 400px;
+  width: 450px;
 }
 
 .first-banner img {
   margin-left: 200px;
   padding: 0%;
-  height: 400px;
-  width: 400px;
+  height: 250px;
+  width: 250px;
 }
 
 .orange {
@@ -158,6 +164,8 @@ body {
 }
 
 .second-button {
+  font-weight: bolder;
+  font-size: 16px;
   padding: 15px;
   border-radius: 10px;
   border-top: 20px;
