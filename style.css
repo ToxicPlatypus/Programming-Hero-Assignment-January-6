@@ -129,7 +129,7 @@ body {
 }
 
 .image-bg {
-  background-image: url(/images/shapes/shape-1.png);
+  background-image: url(images/shapes/shape-1.png);
   background-size: 120px;
   background-position: left;
   background-repeat: no-repeat;
@@ -137,7 +137,7 @@ body {
 }
 
 .image-bg2 {
-  background-image: url(/images/shapes/shape-1.png);
+  background-image: url(images/shapes/shape-1.png);
   background-size: 100px;
   background-repeat: no-repeat;
   background-position-y: 100%;
