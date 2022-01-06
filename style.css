@@ -1,6 +1,6 @@
 body {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
   font-family: "Roboto", sans-serif;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 .first-button {
-  margin: 10px;
+  margin-top: 10px;
   padding: 10px;
   border-radius: 10px;
   border: none;
@@ -39,11 +39,17 @@ body {
 
 .first-banner {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin: 5%;
 }
 
+.writing {
+  width: 400px;
+}
+
 .first-banner img {
+  margin-left: 200px;
+  padding: 0%;
   height: 400px;
   width: 400px;
 }
@@ -68,12 +74,12 @@ body {
 
 .second-flex {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .mission {
   margin-top: 20px;
-  width: 400px;
+  width: 250px;
   padding: 20px;
   background-color: paleturquoise;
   border-radius: 20px;
@@ -84,37 +90,65 @@ body {
 }
 
 .vission {
+  margin-right: 50px;
+  margin-left: 50px;
   margin-top: 20px;
-  width: 400px;
+  width: 250px;
   padding: 20px;
   background-color: pink;
   border-radius: 20px;
 }
 
 .vission img {
-  width: 80%;
+  width: 75%;
 }
 
 .goals {
   margin-top: 20px;
-  width: 400px;
+  width: 250px;
   padding: 20px;
   background-color: wheat;
   border-radius: 20px;
 }
 
 .goals img {
-  width: 60%;
+  width: 74%;
 }
 
 .third-flex {
-  justify-content: center;
-  margin-top: 40px;
   display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  padding-bottom: 70px;
 }
 
 .third-flex img {
-  width: 50%;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 300px;
+}
+
+.image-bg {
+  background-image: url(/images/shapes/shape-1.png);
+  background-size: 120px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-position-x: 10%;
+}
+
+.image-bg2 {
+  background-image: url(/images/shapes/shape-1.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+  background-position-x: 90%;
+}
+
+.third-flex-writing {
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 400px;
+  margin-bottom: 20px;
 }
 
 .header {
@@ -124,9 +158,9 @@ body {
 }
 
 .second-button {
-  margin: 10px;
-  padding: 10px;
+  padding: 15px;
   border-radius: 10px;
+  border-top: 20px;
   border: none;
   background: none;
   color: white;
@@ -137,5 +171,5 @@ footer {
   margin-top: 40px;
   text-align: center;
   background-color: black;
-  padding: 40px;
+  padding: 25px;
 }
